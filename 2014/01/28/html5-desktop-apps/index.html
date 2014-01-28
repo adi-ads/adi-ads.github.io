@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      HTML5 Desktop Apps &middot; Source
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="layout-reverse">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>Source</h1>
+      <p class="lead">A place for sharing knowledge and tools</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+        <a href="/">Home</a>
+      </li>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <li class="sidebar-nav-item">
+              <a href="/about/">About</a>
+            </li>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+      
+    </ul>
+
+    <p>&copy; 2014. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">HTML5 Desktop Apps</h1>
+  <span class="post-date">28 Jan 2014</span>
+  <p>Using markup &amp; stylesheets are core to any application development. For example <a href="http://www.kde.org/">KDE</a> uses KHTML for its markup whose fork is more popular - webkit. And the enitre GNOME theme is written in CSS. Most interface libraries are written in C/C++ and expose an API so every next developer doesn&#39;t go about re-inventing the wheel, like <a href="http://www.gtk.org/">GTK</a>.</p>
+
+<p>Most operating systems have their own version of app development kit, useful as they might be you still end up writting and supporting multiple apps. Though the point to note is the basics of all of them are the same as discussed in the case of GTK.</p>
+
+<h3>Enter HTML5 desktop Apps</h3>
+
+<p>It not really a new concept really, chances are you have used one these already. Windows have entire tutorials on how to publish a <a href="http://msdn.microsoft.com/en-us/library/windows/apps/br211385.aspx">javascript app</a>.</p>
+
+<p>The next piece is to look for a tool that would let you deploy a single app in multiple environments and surely there are a few already in the market.</p>
+
+<ul>
+<li><p><a href="http://www.tidesdk.org/">TideSDK</a>
+You have probably heard titanium mobile kit, but there was a titanium for desktop as well. But the team stoped work on it and released it to the open source community. No traction on the project anymore.</p></li>
+<li><p><a href="https://code.google.com/p/chromiumembedded/">CEF</a>
+Chromium Embedded Framework (CEF) is an open source framework for embedding a web browser control based on Google Chrome, it is a convenient way to implement an HTML5 based GUI in a desktop application or to provide browser capabilities to an application.</p>
+
+<p>Adobe came out with <a href="https://github.com/adobe/brackets-shell">brackets shell</a>, CEF3-based application shell, which in turn can be used for desktop application development itself and is what the brackets IDE is written in. Though the focus is purely for brackets IDE not any other app development even though people are using to write their own desktop apps.</p></li>
+<li><p><a href="http://qt-project.org/">QT</a> 
+Oldest out of the bunch, its a cross-platform application and UI framework for developers using C++ or QML, a CSS &amp; JavaScript like language. It built by <a href="http://qt-project.org/wiki/Nokia-and-Qt">nokia</a>.</p></li>
+<li><p><a href="https://github.com/rogerwang/node-webkit">Node-webkit</a>
+Node-webkit is a desktop runtime that combines chromium with NodeJS. This project is also backed by Intel and has regular updates. </p></li>
+</ul>
+
+<h3>Comparision</h3>
+
+<p>Node-webkit would be the sensible choice to go with, given that the project itself is just a wrapper with message looping, the main projects are chromium and NodeJS both of which are heavily tested and have a huge community.</p>
+
+<p>You could just write a plain HTML5/CSS/JS app and ship that with the run time. And add NodeJS on a where is required basis. Assuming your app is written with a modular architecture in mind a desktop app could re-use a lot of components.</p>
+
+<p>Additionally because you control the run time environment you can do a lot more. Use advance HTML5 API as well as use WebGL if need be.</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>
