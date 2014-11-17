@@ -60,6 +60,8 @@
         
       
         
+      
+        
           
         
       
@@ -73,6 +75,77 @@
 
     <div class="content container">
       <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/2014/08/11/universal-design/">
+        Universal Design for Web
+      </a>
+    </h1>
+
+    <span class="post-date">11 Aug 2014</span>
+
+    <p>The term &quot;universal design&quot; was coined by the architect <a href="http://www.ncsu.edu/ncsu/design/cud/about_us/usronmace.htm">Ronald L. Mace</a> to
+describe the concept of designing all products and the built environment to be
+aesthetic and usable to the greatest extent possible by everyone, regardless of their age,
+ability, or status in life.</p>
+
+<p>For web universal design is about providing accessibility to all, even when those people&#39;s
+abilities are limited in some way. Often the first thought when talking about accessibility
+that comes to mind is &quot;assistive technology&quot; like screen readers, though it is part of the
+accessible to all eco-system its definitely not whole of it. Accessibility can be as simple
+as the capability of changing the font size of the article you are reading, like this one.</p>
+
+<p>Accessibility rather being an afterthought and should be included in the process as early as
+possible and here is how you can achieve it.</p>
+
+<p>Don&#39;t just try to achieve compliance try to really achieve access to all. Section 508 in US was
+last updated in year 2000 and WCAG 2.0 in 2008. Only being complaint to them might not mean your
+site is fully accessible as the web has moved on since then.</p>
+
+<h3>During Design</h3>
+
+<p>Create accessibility personas for as part of the design process. You can get tips and some example
+<a href="http://diveintoaccessibility.info/by_person.html">here</a>.</p>
+
+<p>Add Notes to your doodles and wireframes showing thoughts on it would work for different situtaions. Don&#39;t confuse accessibility to usability, if something is not accessible to
+someone it sure won&#39;t be usable.</p>
+
+<h3>During Development</h3>
+
+<p>Delve into the WC3&#39;s ARIA guidelines, don&#39;t just limit your self to the last updated version.
+Check what is in the <a href="https://github.com/w3c/wcag">pipeline today</a> for a more updated document.
+<a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility">MDN</a> also maintains upto date documentation and curated collection of articles to help build for
+today and the future.</p>
+
+<p>Add test for accessibility in your code itself. You can use sass as a pre-processor and write checks for color contrast to be always above a certain threshold. Here is <a href="https://github.com/ornament-design/sass-color">snippet of code</a> to achieve it.</p>
+
+<p>You can even take rules from tools like [https://github.com/Heydon/REVENGE.CSS] andpackage it for
+your editor to do validation on the fly. <a href="https://atom.io/">Atom</a> also you to include such plugable code linter.</p>
+
+<h3>Post Build Checks</h3>
+
+<p>Add some continous integration tool to your build process which should allow you to run w3c
+validators as well some other tools like <a href="https://github.com/GoogleChrome/accessibility-developer-tools">Google Accessibility Developer Tools</a>
+on a on going basis to help identify and issues early in the process. Use a header less browser like <a href="http://phantomjs.org/">phantomjs</a> to run them on your server.</p>
+
+<h3>Testing the application</h3>
+
+<p>Start with a text only browser <a href="http://lynx.browser.org/">lynx</a> as the first check point.
+Than move to a screen reader, you can use <a href="http://www.chromevox.com/">chrome vox</a> which is a
+screen reader for chrome or <a href="http://www.apple.com/accessibility/osx/voiceover/">Voice Over</a> for mac.</p>
+
+<h3>Open Web Community Support</h3>
+
+<p>Since you are such a champ that your taking the time and effort to make your product accessible to
+all you get a lot of help from the community. Take a look at <a href="http://a11yproject.com/">A11Y Project</a> which provides you with a widget pattern library, checklist for your HTML and plenty of good other resources as well.</p>
+
+<h3>Thank You!</h3>
+
+<p>With more than <a href="http://www.un.org/disabilities/default.asp?id=18">1 billion people</a> in the world
+living with an impairment be assured someone somewhere is thanking you for your effort.</p>
+
+  </div>
   
   <div class="post">
     <h1 class="post-title">
@@ -97,9 +170,12 @@
 <li><p><a href="http://www.tidesdk.org/">TideSDK</a>
 You have probably heard titanium mobile kit, but there was a titanium for desktop as well. But the team stoped work on it and released it to the open source community. No traction on the project anymore.</p></li>
 <li><p><a href="https://code.google.com/p/chromiumembedded/">CEF</a>
-Chromium Embedded Framework (CEF) is an open source framework for embedding a web browser control based on Google Chrome, it is a convenient way to implement an HTML5 based GUI in a desktop application or to provide browser capabilities to an application.</p>
+Chromium Embedded Framework (CEF) is an open source framework for embedding a web browser control based on Google Chrome, it is a convenient way to implement an HTML5 based GUI in a desktop application or to provide browser capabilities to an application.</p></li>
+</ul>
 
-<p>Adobe came out with <a href="https://github.com/adobe/brackets-shell">brackets shell</a>, CEF3-based application shell, which in turn can be used for desktop application development itself and is what the brackets IDE is written in. Though the focus is purely for brackets IDE not any other app development even though people are using it to write their own desktop apps.</p></li>
+<p>Adobe came out with <a href="https://github.com/adobe/brackets-shell">brackets shell</a>, CEF3-based application shell, which in turn can be used for desktop application development itself and is what the brackets IDE is written in. Though the focus is purely for brackets IDE not any other app development even though people are using it to write their own desktop apps.</p>
+
+<ul>
 <li><p><a href="http://qt-project.org/">QT</a> 
 Oldest out of the bunch, its a cross-platform application and UI framework for developers using C++ or QML, a CSS &amp; JavaScript like language. It&#39;s built by <a href="http://qt-project.org/wiki/Nokia-and-Qt">nokia</a>.</p></li>
 <li><p><a href="https://github.com/rogerwang/node-webkit">Node-webkit</a>
