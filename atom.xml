@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Source</title>
+ <link href="/atom.xml" rel="self"/>
+ <link href="/"/>
+ <updated>2014-11-20T12:42:12+05:30</updated>
+ <id></id>
+ <author>
+   <name>Adi Chikara</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Universal Design for Web</title>
+   <link href="/2014/08/11/universal-design/"/>
+   <updated>2014-08-11T00:00:00+05:30</updated>
+   <id>/2014/08/11/universal-design</id>
+   <content type="html">&lt;p&gt;The term &amp;quot;universal design&amp;quot; was coined by the architect &lt;a href=&quot;http://www.ncsu.edu/ncsu/design/cud/about_us/usronmace.htm&quot;&gt;Ronald L. Mace&lt;/a&gt; to
+describe the concept of designing all products and the built environment to be
+aesthetic and usable to the greatest extent possible by everyone, regardless of their age,
+ability, or status in life.&lt;/p&gt;
+
+&lt;p&gt;For web universal design is about providing accessibility to all, even when those people&amp;#39;s
+abilities are limited in some way. Often the first thought when talking about accessibility
+that comes to mind is &amp;quot;assistive technology&amp;quot; like screen readers, though it is part of the
+accessible to all eco-system its definitely not whole of it. Accessibility can be as simple
+as the capability of changing the font size of the article you are reading, like this one.&lt;/p&gt;
+
+&lt;p&gt;Accessibility rather being an afterthought and should be included in the process as early as
+possible and here is how you can achieve it.&lt;/p&gt;
+
+&lt;p&gt;Don&amp;#39;t just try to achieve compliance try to really achieve access to all. Section 508 in US was
+last updated in year 2000 and WCAG 2.0 in 2008. Only being complaint to them might not mean your
+site is fully accessible as the web has moved on since then.&lt;/p&gt;
+
+&lt;h3&gt;During Design&lt;/h3&gt;
+
+&lt;p&gt;Create accessibility personas for as part of the design process. You can get tips and some example
+&lt;a href=&quot;http://diveintoaccessibility.info/by_person.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Add Notes to your doodles and wireframes showing thoughts on it would work for different situtaions. Don&amp;#39;t confuse accessibility to usability, if something is not accessible to
+someone it sure won&amp;#39;t be usable.&lt;/p&gt;
+
+&lt;h3&gt;During Development&lt;/h3&gt;
+
+&lt;p&gt;Delve into the WC3&amp;#39;s ARIA guidelines, don&amp;#39;t just limit your self to the last updated version.
+Check what is in the &lt;a href=&quot;https://github.com/w3c/wcag&quot;&gt;pipeline today&lt;/a&gt; for a more updated document.
+&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Accessibility&quot;&gt;MDN&lt;/a&gt; also maintains upto date documentation and curated collection of articles to help build for
+today and the future.&lt;/p&gt;
+
+&lt;p&gt;Add test for accessibility in your code itself. You can use &lt;a href=&quot;&quot;&gt;sass&lt;/a&gt; as a pre-processor and write checks for color contrast to be always above a certain threshold. Here is &lt;a href=&quot;https://github.com/ornament-design/sass-color&quot;&gt;snippet of code&lt;/a&gt; to achieve it.&lt;/p&gt;
+
+&lt;p&gt;You can even take rules from tools like &lt;a href=&quot;https://github.com/Heydon/REVENGE.CSS&quot;&gt;revenge.css&lt;/a&gt; and package it for your editor to do validation on the fly. &lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt; also you to include such plugable code linter.&lt;/p&gt;
+
+&lt;h3&gt;Post Build Checks&lt;/h3&gt;
+
+&lt;p&gt;Add some continous integration tool to your build process which should allow you to run w3c
+validators as well some other tools like &lt;a href=&quot;https://github.com/GoogleChrome/accessibility-developer-tools&quot;&gt;Google Accessibility Developer Tools&lt;/a&gt; and &lt;a href=&quot;http://achecker.ca/checker/index.php&quot;&gt;AChecker&lt;/a&gt; on a on going basis to help identify and issues early in the process. Use a header less browser like &lt;a href=&quot;http://phantomjs.org/&quot;&gt;phantomjs&lt;/a&gt; to run them on your server.&lt;/p&gt;
+
+&lt;h3&gt;Testing the application&lt;/h3&gt;
+
+&lt;p&gt;Start with a text only browser &lt;a href=&quot;http://lynx.browser.org/&quot;&gt;lynx&lt;/a&gt; as the first check point.
+Then move to a screen reader, you can use &lt;a href=&quot;http://www.chromevox.com/&quot;&gt;chrome vox&lt;/a&gt; which is a
+screen reader for chrome or &lt;a href=&quot;http://www.apple.com/accessibility/osx/voiceover/&quot;&gt;Voice Over&lt;/a&gt; for mac.&lt;/p&gt;
+
+&lt;h3&gt;Open Web Community Support&lt;/h3&gt;
+
+&lt;p&gt;Since you are such a champ that your taking the time and effort to make your product accessible to
+all you get a lot of help from the community. Take a look at &lt;a href=&quot;http://a11yproject.com/&quot;&gt;A11Y Project&lt;/a&gt; which provides you with a widget pattern library, checklist for your HTML and plenty of good other resources as well.&lt;/p&gt;
+
+&lt;h3&gt;Thank You!&lt;/h3&gt;
+
+&lt;p&gt;With more than &lt;a href=&quot;http://www.un.org/disabilities/default.asp?id=18&quot;&gt;1 billion people&lt;/a&gt; in the world
+living with an impairment be assured someone somewhere is thanking you for your effort.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>HTML5 Desktop Apps</title>
+   <link href="/2014/01/28/html5-desktop-apps/"/>
+   <updated>2014-01-28T00:00:00+05:30</updated>
+   <id>/2014/01/28/html5-desktop-apps</id>
+   <content type="html">&lt;p&gt;Using markup &amp;amp; stylesheets are core to any application development. For example &lt;a href=&quot;http://www.kde.org/&quot;&gt;KDE&lt;/a&gt; uses KHTML for its markup whose fork is more popular - webkit. And the enitre GNOME theme is written in CSS. Most interface libraries are written in C/C++ and expose an API so every next developer doesn&amp;#39;t go about re-inventing the wheel, like &lt;a href=&quot;http://www.gtk.org/&quot;&gt;GTK&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Most operating systems have their own version of app development kit, useful as they might be you still end up writting and supporting multiple apps. Though the point to note is that the basics of all of them is the same as discussed in the case of GTK.&lt;/p&gt;
+
+&lt;h3&gt;Enter HTML5 desktop Apps&lt;/h3&gt;
+
+&lt;p&gt;It not really a new concept really, chances are you have used one these already. Windows have entire tutorials on how to publish a &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/windows/apps/br211385.aspx&quot;&gt;javascript app&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The next piece is to look for a tool that would let you deploy a single app in multiple environments and surely there are a few already in the market.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.tidesdk.org/&quot;&gt;TideSDK&lt;/a&gt;
+You have probably heard titanium mobile kit, but there was a titanium for desktop as well. But the team stoped work on it and released it to the open source community. No traction on the project anymore.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://code.google.com/p/chromiumembedded/&quot;&gt;CEF&lt;/a&gt;
+Chromium Embedded Framework (CEF) is an open source framework for embedding a web browser control based on Google Chrome, it is a convenient way to implement an HTML5 based GUI in a desktop application or to provide browser capabilities to an application.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Adobe came out with &lt;a href=&quot;https://github.com/adobe/brackets-shell&quot;&gt;brackets shell&lt;/a&gt;, CEF3-based application shell, which in turn can be used for desktop application development itself and is what the brackets IDE is written in. Though the focus is purely for brackets IDE not any other app development even though people are using it to write their own desktop apps.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://qt-project.org/&quot;&gt;QT&lt;/a&gt; 
+Oldest out of the bunch, its a cross-platform application and UI framework for developers using C++ or QML, a CSS &amp;amp; JavaScript like language. It&amp;#39;s built by &lt;a href=&quot;http://qt-project.org/wiki/Nokia-and-Qt&quot;&gt;nokia&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/rogerwang/node-webkit&quot;&gt;Node-webkit&lt;/a&gt;
+Node-webkit is a desktop runtime that combines chromium with NodeJS. This project is also backed by Intel and has regular updates. &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Node-webkit would be the sensible choice to go with, given that the project itself is just a wrapper with message looping, the main projects are chromium and NodeJS both of which are heavily tested and have a huge community.&lt;/p&gt;
+
+&lt;p&gt;You could just write a plain HTML5/CSS/JS app and ship that with the run time and add NodeJS on a where is required basis. Assuming your app is written with a modular architecture in mind a desktop app could re-use a lot of components from your webapp.&lt;/p&gt;
+
+&lt;p&gt;Additionally because you control the run time environment you can do a lot more. Use advance HTML5 API as well as use WebGL if need be. And better layouts as well working with flexbox, regions and what not.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
